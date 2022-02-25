@@ -1,3 +1,9 @@
+body {
+  font-family: arial;
+  font-size: 1.2em;
+  color: gray;
+}
+
 .container {
   flex-direction: row;
   margin: 0 auto;
@@ -7,11 +13,13 @@
 
 .card {
   flex-direction: column;
+  width: 20%;
 }
 
 .interactivity {
   flex-direction: row;
   justify-content: space-between;
+  line-height: 1%;
 }
 
 .likes {
@@ -25,8 +33,16 @@
 button {
   padding: 5%;
   border-radius: 0px;
+  background-color: salmon;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 
-p {
-  margin: 2%;
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  color: salmon;
 }
