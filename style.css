@@ -1,6 +1,6 @@
 body {
   font-family: arial;
-  font-size: 2em;
+  font-size: 1.6em;
   color: gray;
 }
 
@@ -17,31 +17,41 @@ button {
 h1 {
   margin-bottom: 0;
   color: black;
+  font-size: 1.6em;
+  line-height: 90%;
 }
 
 h2 {
   color: salmon;
+  font-size: 1.4em;
+  line-height: 90%;
+}
+
+hr {
+  width: 100%;
+  color: lightgray;
 }
 
 .container {
   flex-direction: row;
   margin: 0 auto;
-  padding: 3%;
+  padding: 10%;
+  padding-top: 1%;
   justify-content: space-evenly;
 }
 
 .card {
   flex-direction: column;
   width: 30%;
-  padding: 1%;
+  padding: 2%;
   box-shadow: 0 0 10px lightgray;
-  line-height: 150%;
+  line-height: 160%;
 }
 
 .interactivity {
   flex-direction: row;
   justify-content: space-between;
-  line-height: 1%;
+  line-height: 0%;
 }
 
 .likes {
