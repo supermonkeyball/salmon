@@ -1,12 +1,32 @@
 .container {
-  display: flex;
   flex-direction: row;
   margin: 0 auto;
   padding: 3%;
-   justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
 .card {
-  display: flex;
   flex-direction: column;
+}
+
+.interactivity {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.likes {
+  flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+button {
+  padding: 5%;
+  border-radius: 0px;
+}
+
+p {
+  margin: 2%;
 }
